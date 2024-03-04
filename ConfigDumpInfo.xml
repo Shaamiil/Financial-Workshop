@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.14">
+	<ConfigVersions>
+		<Metadata name="Catalog.КошелекШамиля" id="1a420385-a40d-4ddb-ba4a-fadeac789ac3" configVersion="ca20f78e15774440a3450db0b851ec9e00000000">
+			<Metadata name="Catalog.КошелекШамиля.Attribute.Дата" id="72fa366c-531a-4584-ae10-b7e564b23f0a"/>
+			<Metadata name="Catalog.КошелекШамиля.Attribute.Сумма" id="e3f7fffc-bc1e-4d3b-921c-31426a214782"/>
+		</Metadata>
+		<Metadata name="Catalog.КошелекШамиля.Form.ФормаСписка" id="2717bf3b-fe0d-4053-936a-e7534ee41974" configVersion="ecdf7dd34184224480b197871bfeb15000000000"/>
+		<Metadata name="Catalog.КошелекШамиля.Form.ФормаСписка.Form" id="2717bf3b-fe0d-4053-936a-e7534ee41974.0" configVersion="cf30633aba89984187f9f04af9858d7b00000000"/>
+		<Metadata name="Catalog.КошелекШамиля.Form.ФормаЭлемента" id="6cb65c7e-ffb4-4adf-b761-dfee47f9e8b4" configVersion="dd9d58ca943cdd42b13e06ad399e337000000000"/>
+		<Metadata name="Catalog.КошелекШамиля.Form.ФормаЭлемента.Form" id="6cb65c7e-ffb4-4adf-b761-dfee47f9e8b4.0" configVersion="610aa38bdc6a934f8a37e60175fae5d300000000"/>
+		<Metadata name="Configuration.Конфигурация" id="7a55d856-b844-40b2-b6d3-944a423a4a14" configVersion="89d30c6cc8b48748a7c84fbfd9f8c8b900000000"/>
+		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="e8880818-8312-40cb-98cf-5a9a930f9a57.8" configVersion="cf21f7673c66724cbc0679baf3574d6600000000"/>
+		<Metadata name="Language.Русский" id="f55badc8-cd9b-4ba0-b607-b196a29585d2" configVersion="21abc59c68f2fb43bd922ba13c56995d00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
