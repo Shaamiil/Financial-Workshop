@@ -5,24 +5,26 @@
 			<Metadata name="Catalog.КошелекШамиля.Attribute.Дата" id="72fa366c-531a-4584-ae10-b7e564b23f0a"/>
 			<Metadata name="Catalog.КошелекШамиля.Attribute.Сумма" id="e3f7fffc-bc1e-4d3b-921c-31426a214782"/>
 		</Metadata>
-		<Metadata name="Catalog.КошелекШамиля.Form.ФормаСписка" id="f9efaa5d-0f78-459b-996a-5ae9bea7c390" configVersion="2c4baed7a0347a4a8cac2057b02ac54a00000000"/>
-		<Metadata name="Catalog.КошелекШамиля.Form.ФормаСписка.Form" id="f9efaa5d-0f78-459b-996a-5ae9bea7c390.0" configVersion="8bcff606a7ed3c418982e7fc477dd73d00000000"/>
+		<Metadata name="Catalog.КошелекШамиля.Form.ФормаСписка" id="f9efaa5d-0f78-459b-996a-5ae9bea7c390" configVersion="e8d646177788e048b5bae986fc91ea7700000000"/>
+		<Metadata name="Catalog.КошелекШамиля.Form.ФормаСписка.Form" id="f9efaa5d-0f78-459b-996a-5ae9bea7c390.0" configVersion="b10c177c2aeecd4f892c607826b3970700000000"/>
 		<Metadata name="Catalog.КошелекШамиля.Form.ФормаЭлемента" id="6cb65c7e-ffb4-4adf-b761-dfee47f9e8b4" configVersion="dd9d58ca943cdd42b13e06ad399e337000000000"/>
 		<Metadata name="Catalog.КошелекШамиля.Form.ФормаЭлемента.Form" id="6cb65c7e-ffb4-4adf-b761-dfee47f9e8b4.0" configVersion="610aa38bdc6a934f8a37e60175fae5d300000000"/>
+		<Metadata name="CommonForm.ВыберитеОпцию" id="6c7d7e1b-b963-4e9e-823e-a1383f874d02" configVersion="0e29e10d454ff64c8dc5d56491a9804100000000"/>
+		<Metadata name="CommonForm.ВыберитеОпцию.Form" id="6c7d7e1b-b963-4e9e-823e-a1383f874d02.0" configVersion="6445f190f3ebdc48877304d9f20e5d3a00000000"/>
 		<Metadata name="CommonForm.Переводы" id="0724adbc-b563-48f6-a82d-23398a2149c6" configVersion="b7576050ac23c249a88ff2d6f6311cab00000000"/>
 		<Metadata name="CommonForm.Переводы.Form" id="0724adbc-b563-48f6-a82d-23398a2149c6.0" configVersion="aa5cb2605a877841bf2ef9475000c36700000000"/>
 		<Metadata name="CommonModule.Запросы" id="a3ea8d78-7fac-4bf6-90b1-378a3ced1535" configVersion="f5ab5a0a1dc5b748a92f130811eb082f00000000"/>
 		<Metadata name="CommonModule.Запросы.Module" id="a3ea8d78-7fac-4bf6-90b1-378a3ced1535.0" configVersion="83689ac406345044b9f954f9745141db00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="7a55d856-b844-40b2-b6d3-944a423a4a14" configVersion="64756a9815c9584797101a9c04bc06cf00000000"/>
-		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="e8880818-8312-40cb-98cf-5a9a930f9a57.8" configVersion="45dd8b98c6742f4fb6a5e0d84d7ac51800000000"/>
+		<Metadata name="Configuration.Конфигурация" id="7a55d856-b844-40b2-b6d3-944a423a4a14" configVersion="a2ccf45b855b284e8946b1f6fcfc442000000000"/>
+		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="e8880818-8312-40cb-98cf-5a9a930f9a57.8" configVersion="a04fe86df757f341af90271b227aac4700000000"/>
 		<Metadata name="Document.БудушиеПланы" id="d48230ba-d54d-4e8e-a7ea-e9de99e7c016" configVersion="ea2daec32c2cec47a272f4ee0135040700000000">
 			<Metadata name="Document.БудушиеПланы.Attribute.Бюджет" id="76385bdc-845f-4da0-af6b-71997fee5354"/>
 			<Metadata name="Document.БудушиеПланы.Attribute.До" id="9c119609-6e1b-403f-81e0-ac492b723f90"/>
 			<Metadata name="Document.БудушиеПланы.Attribute.План" id="c10aabfe-1f43-466e-af73-cfa42102e283"/>
 			<Metadata name="Document.БудушиеПланы.Attribute.Результат" id="e0ed0fa6-db2e-4ab4-9c5e-df7e7d333fc0"/>
 		</Metadata>
-		<Metadata name="Document.БудушиеПланы.Form.ФормаДокумента" id="8892ba2a-fc82-4acf-bea7-ae2329b02ad6" configVersion="7bc8039de30f5c4780d60a4f578d7fe800000000"/>
-		<Metadata name="Document.БудушиеПланы.Form.ФормаДокумента.Form" id="8892ba2a-fc82-4acf-bea7-ae2329b02ad6.0" configVersion="b1c87b054bd7474fa45c441c013b136600000000"/>
+		<Metadata name="Document.БудушиеПланы.Form.ФормаДокумента" id="8892ba2a-fc82-4acf-bea7-ae2329b02ad6" configVersion="b7cfec633541394285281891154111d600000000"/>
+		<Metadata name="Document.БудушиеПланы.Form.ФормаДокумента.Form" id="8892ba2a-fc82-4acf-bea7-ae2329b02ad6.0" configVersion="bd6f83059e46c04eb4132ad9dd70f0d000000000"/>
 		<Metadata name="Document.БудушиеПланы.Form.ФормаСписка" id="8a287b4e-6985-4c49-bc40-85f36498dcbc" configVersion="342631e8eff3e64c928a20fd72e26b4e00000000"/>
 		<Metadata name="Document.БудушиеПланы.Form.ФормаСписка.Form" id="8a287b4e-6985-4c49-bc40-85f36498dcbc.0" configVersion="90729cfe9f8b5e42988d300847060f1900000000"/>
 		<Metadata name="Document.ТранзакцииВыч" id="bd1ee5ee-9645-4e9e-969e-5162f4ad9154" configVersion="661f410be87b9e4a897d27ef546d20ce00000000">

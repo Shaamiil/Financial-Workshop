@@ -108,10 +108,11 @@
 			<HorizontalStretch>true</HorizontalStretch>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="32"/>
 			<ChildItems>
-				<Button name="Перевод" id="33">
+				<Button name="Функции" id="33">
 					<Type>UsualButton</Type>
-					<CommandName>Form.Command.Перевод</CommandName>
-					<ExtendedTooltip name="ПереводРасширеннаяПодсказка" id="34"/>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.Command.Функции</CommandName>
+					<ExtendedTooltip name="ФункцииРасширеннаяПодсказка" id="34"/>
 				</Button>
 				<InputField name="ОбщаяСумма" id="35">
 					<DataPath>ОбщаяСумма</DataPath>
@@ -169,17 +170,17 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="Перевод" id="1">
+		<Command name="Функции" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Перевод</v8:content>
+					<v8:content>Функции</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Перевод</v8:content>
+					<v8:content>Функции</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Перевод</Action>
