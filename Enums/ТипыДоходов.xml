@@ -64,11 +64,11 @@
 			</EnumValue>
 			<EnumValue uuid="c41db774-0724-4f49-8e86-5237887a65b9">
 				<Properties>
-					<Name>ПереводыМне</Name>
+					<Name>Переводы</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Переводы мне</v8:content>
+							<v8:content>Переводы</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

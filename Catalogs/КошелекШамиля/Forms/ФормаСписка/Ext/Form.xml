@@ -111,7 +111,12 @@
 				<Button name="Функции" id="33">
 					<Type>UsualButton</Type>
 					<Representation>PictureAndText</Representation>
+					<DefaultButton>true</DefaultButton>
 					<CommandName>Form.Command.Функции</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.DataCompositionOutputParameters</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
 					<ExtendedTooltip name="ФункцииРасширеннаяПодсказка" id="34"/>
 				</Button>
 				<InputField name="ОбщаяСумма" id="35">

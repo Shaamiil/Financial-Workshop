@@ -31,6 +31,7 @@
 		</Button>
 		<Button name="ПосмотретьОтчеты" id="3">
 			<Type>UsualButton</Type>
+			<Representation>PictureAndText</Representation>
 			<Width>51</Width>
 			<Height>2</Height>
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
@@ -60,6 +61,7 @@
 					<v8:content>Посмотреть счета</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ПосмотретьСчета</Action>
 		</Command>
 		<Command name="ПосмотретьОтчеты" id="2">
 			<Title>
@@ -74,6 +76,7 @@
 					<v8:content>Посмотреть отчеты</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ПосмотретьОтчеты</Action>
 		</Command>
 	</Commands>
 </Form>
