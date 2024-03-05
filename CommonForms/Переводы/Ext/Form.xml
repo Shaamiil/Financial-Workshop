@@ -8,6 +8,7 @@
 	<ChildItems>
 		<Button name="МеждуСвоими" id="1">
 			<Type>UsualButton</Type>
+			<Visible>false</Visible>
 			<Representation>PictureAndText</Representation>
 			<HorizontalStretch>true</HorizontalStretch>
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
@@ -29,17 +30,6 @@
 			</Picture>
 			<ExtendedTooltip name="ПереводРасширеннаяПодсказка" id="4"/>
 		</Button>
-		<Button name="Снятие" id="5">
-			<Type>UsualButton</Type>
-			<Representation>PictureAndText</Representation>
-			<HorizontalStretch>true</HorizontalStretch>
-			<CommandName>Form.Command.Снятие</CommandName>
-			<Picture>
-				<xr:Ref>StdPicture.AppearanceDownInclineArrowGray</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<ExtendedTooltip name="СнятиеРасширеннаяПодсказка" id="6"/>
-		</Button>
 		<Button name="Пополнить" id="7">
 			<Type>UsualButton</Type>
 			<Representation>PictureAndText</Representation>
@@ -50,6 +40,17 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<ExtendedTooltip name="ПополнитьРасширеннаяПодсказка" id="8"/>
+		</Button>
+		<Button name="ПланированиеБюджета" id="9">
+			<Type>UsualButton</Type>
+			<Representation>PictureAndText</Representation>
+			<HorizontalStretch>true</HorizontalStretch>
+			<CommandName>Form.Command.ПланированиеБюджета</CommandName>
+			<Picture>
+				<xr:Ref>StdPicture.WriteAndClose</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<ExtendedTooltip name="ПланированиеБюджетаРасширеннаяПодсказка" id="10"/>
 		</Button>
 	</ChildItems>
 	<Attributes/>
@@ -82,6 +83,7 @@
 					<v8:content>Перевод</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Перевод</Action>
 		</Command>
 		<Command name="Снятие" id="3">
 			<Title>
@@ -111,6 +113,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Пополнить</Action>
+		</Command>
+		<Command name="ПланированиеБюджета" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Планирование бюджета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Планирование бюджета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПланированиеБюджета</Action>
 		</Command>
 	</Commands>
 </Form>

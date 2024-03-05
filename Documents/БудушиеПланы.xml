@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
-	<Document uuid="ce30485d-ed6e-4b77-862a-5dcfa9e01128">
+	<Document uuid="d48230ba-d54d-4e8e-a7ea-e9de99e7c016">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.Транзакции" category="Object">
-				<xr:TypeId>b3b1145e-3983-474b-9c6a-1be7ce3f6cbe</xr:TypeId>
-				<xr:ValueId>9dd8657f-2ea7-471a-b10c-2906cf2f6fb6</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.БудушиеПланы" category="Object">
+				<xr:TypeId>be7b57c1-bd6d-4ff6-992f-4e7f7d34c80c</xr:TypeId>
+				<xr:ValueId>e2392569-ab3c-44a2-93b2-71439c8d8898</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.Транзакции" category="Ref">
-				<xr:TypeId>aa656989-9ec2-4d28-8927-b8c287bfee42</xr:TypeId>
-				<xr:ValueId>653c92fb-eb6f-4aa5-94cc-6c74d65f9e40</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.БудушиеПланы" category="Ref">
+				<xr:TypeId>c3023c90-9320-4380-a755-177902bb4319</xr:TypeId>
+				<xr:ValueId>fd5269ad-c802-4b27-8d11-d15c9453f0ec</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.Транзакции" category="Selection">
-				<xr:TypeId>8bdc24ad-4a22-42d9-b73a-b8135f38047a</xr:TypeId>
-				<xr:ValueId>0480eb42-b13a-40bc-b3d1-9814fc0bf7f6</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.БудушиеПланы" category="Selection">
+				<xr:TypeId>a0d236fe-b953-46b8-b1cb-36dc25702a5e</xr:TypeId>
+				<xr:ValueId>9bb62f59-5b2e-48e3-b044-86f81707cd27</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.Транзакции" category="List">
-				<xr:TypeId>ee0fd4bb-b745-4e03-8dea-cbf9186a2ab2</xr:TypeId>
-				<xr:ValueId>123bbe26-8488-486c-88f9-19e70f8dab5f</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.БудушиеПланы" category="List">
+				<xr:TypeId>737e75df-6c2e-4196-a126-de158127f776</xr:TypeId>
+				<xr:ValueId>c2eab9d3-5dea-4af8-8dce-889b5402773c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.Транзакции" category="Manager">
-				<xr:TypeId>c80b9777-c58e-4110-a9e5-d25712a4db88</xr:TypeId>
-				<xr:ValueId>82b674b6-794c-48d1-98d5-d272554c4465</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.БудушиеПланы" category="Manager">
+				<xr:TypeId>da9c4683-fc7d-459d-ba18-0e0bab66d73b</xr:TypeId>
+				<xr:ValueId>3b1c2882-74e9-4c7a-9945-d9673b35bd48</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Транзакции</Name>
+			<Name>БудушиеПланы</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Транзакции</v8:content>
+					<v8:content>Будушие планы</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -43,14 +43,14 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.Транзакции.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.БудушиеПланы.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.Транзакции.Form.ФормаДокумента</DefaultObjectForm>
-			<DefaultListForm>Document.Транзакции.Form.ФормаСписка</DefaultListForm>
+			<DefaultObjectForm>Document.БудушиеПланы.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultListForm>Document.БудушиеПланы.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
@@ -78,18 +78,22 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="b7c296bf-27ce-462f-8d1c-6c543e492324">
+			<Attribute uuid="c10aabfe-1f43-466e-af73-cfa42102e283">
 				<Properties>
-					<Name>Счет</Name>
+					<Name>План</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Счет</v8:content>
+							<v8:content>План</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:TypeSet>cfg:CatalogRef</v8:TypeSet>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -102,7 +106,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
+					<FillValue xsi:type="xs:string"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -117,13 +121,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="0d4c936a-e3cd-424b-9e07-672f75ffc4b9">
+			<Attribute uuid="76385bdc-845f-4da0-af6b-71997fee5354">
 				<Properties>
-					<Name>Сумма</Name>
+					<Name>Бюджет</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма</v8:content>
+							<v8:content>Бюджет</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -161,18 +165,21 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="0b8561fb-83b1-45ae-a85b-03b878f1b9a7">
+			<Attribute uuid="9c119609-6e1b-403f-81e0-ac492b723f90">
 				<Properties>
-					<Name>Тип</Name>
+					<Name>До</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Тип</v8:content>
+							<v8:content>До</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.ТипыДоходов</v8:Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -200,13 +207,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="fe4b19a8-070b-4966-aaa3-97a6d423170c">
+			<Attribute uuid="e0ed0fa6-db2e-4ab4-9c5e-df7e7d333fc0">
 				<Properties>
-					<Name>Описание</Name>
+					<Name>Результат</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Описание</v8:content>
+							<v8:content>Результат</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
