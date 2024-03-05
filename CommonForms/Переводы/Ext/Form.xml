@@ -110,6 +110,7 @@
 					<v8:content>Пополнить</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Пополнить</Action>
 		</Command>
 	</Commands>
 </Form>
