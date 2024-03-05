@@ -1,16 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.14">
 	<ConfigVersions>
-		<Metadata name="Catalog.КошелекШамиля" id="1a420385-a40d-4ddb-ba4a-fadeac789ac3" configVersion="ca20f78e15774440a3450db0b851ec9e00000000">
+		<Metadata name="Catalog.КошелекШамиля" id="1a420385-a40d-4ddb-ba4a-fadeac789ac3" configVersion="f6b8859f07aee24c97d2cb39cf0f312300000000">
 			<Metadata name="Catalog.КошелекШамиля.Attribute.Дата" id="72fa366c-531a-4584-ae10-b7e564b23f0a"/>
 			<Metadata name="Catalog.КошелекШамиля.Attribute.Сумма" id="e3f7fffc-bc1e-4d3b-921c-31426a214782"/>
 		</Metadata>
-		<Metadata name="Catalog.КошелекШамиля.Form.ФормаСписка" id="2717bf3b-fe0d-4053-936a-e7534ee41974" configVersion="ecdf7dd34184224480b197871bfeb15000000000"/>
-		<Metadata name="Catalog.КошелекШамиля.Form.ФормаСписка.Form" id="2717bf3b-fe0d-4053-936a-e7534ee41974.0" configVersion="cf30633aba89984187f9f04af9858d7b00000000"/>
+		<Metadata name="Catalog.КошелекШамиля.Form.ФормаСписка" id="f9efaa5d-0f78-459b-996a-5ae9bea7c390" configVersion="4dd09d98100b634484ac210664b165cf00000000"/>
+		<Metadata name="Catalog.КошелекШамиля.Form.ФормаСписка.Form" id="f9efaa5d-0f78-459b-996a-5ae9bea7c390.0" configVersion="bb223608d462b9408d0759d10b41775600000000"/>
 		<Metadata name="Catalog.КошелекШамиля.Form.ФормаЭлемента" id="6cb65c7e-ffb4-4adf-b761-dfee47f9e8b4" configVersion="dd9d58ca943cdd42b13e06ad399e337000000000"/>
 		<Metadata name="Catalog.КошелекШамиля.Form.ФормаЭлемента.Form" id="6cb65c7e-ffb4-4adf-b761-dfee47f9e8b4.0" configVersion="610aa38bdc6a934f8a37e60175fae5d300000000"/>
-		<Metadata name="Configuration.Конфигурация" id="7a55d856-b844-40b2-b6d3-944a423a4a14" configVersion="89d30c6cc8b48748a7c84fbfd9f8c8b900000000"/>
-		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="e8880818-8312-40cb-98cf-5a9a930f9a57.8" configVersion="cf21f7673c66724cbc0679baf3574d6600000000"/>
+		<Metadata name="CommonForm.Переводы" id="0724adbc-b563-48f6-a82d-23398a2149c6" configVersion="11eda6376766d8498df70ce10bf90d8000000000"/>
+		<Metadata name="CommonForm.Переводы.Form" id="0724adbc-b563-48f6-a82d-23398a2149c6.0" configVersion="87dd4f5ea08db740aa201987144b93ea00000000"/>
+		<Metadata name="CommonForm.Форма" id="0c805858-fb69-46d8-9e08-8373b55ddec0" configVersion="a5ca8a56ef286e4595ab0ea49967332600000000"/>
+		<Metadata name="CommonForm.Форма.Form" id="0c805858-fb69-46d8-9e08-8373b55ddec0.0" configVersion="5a7b122340fd184290f79b517b64693200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="7a55d856-b844-40b2-b6d3-944a423a4a14" configVersion="6bf99a695fdcc2408d7921ad0785cbaf00000000"/>
+		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="e8880818-8312-40cb-98cf-5a9a930f9a57.8" configVersion="45dd8b98c6742f4fb6a5e0d84d7ac51800000000"/>
+		<Metadata name="Document.Документ1" id="ce30485d-ed6e-4b77-862a-5dcfa9e01128" configVersion="7b363c7e96cf554e8dd50389ea89c60f00000000"/>
 		<Metadata name="Language.Русский" id="f55badc8-cd9b-4ba0-b607-b196a29585d2" configVersion="21abc59c68f2fb43bd922ba13c56995d00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

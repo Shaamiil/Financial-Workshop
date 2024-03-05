@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>2.0</Version>
+			<Version>2.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -210,7 +210,10 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonForm>Переводы</CommonForm>
+			<CommonForm>Форма</CommonForm>
 			<Catalog>КошелекШамиля</Catalog>
+			<Document>Документ1</Document>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
