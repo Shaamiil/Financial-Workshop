@@ -2,6 +2,7 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Width>31</Width>
 	<Height>13</Height>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -9,20 +10,6 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
 	<ChildItems>
-		<Button name="ПосмотретьСчета" id="1">
-			<Type>UsualButton</Type>
-			<Height>2</Height>
-			<HorizontalStretch>true</HorizontalStretch>
-			<CommandName>Form.Command.ПосмтретьСчета</CommandName>
-			<ExtendedTooltip name="ПосмотретьСчетаРасширеннаяПодсказка" id="2"/>
-		</Button>
-		<Button name="ПосмотретьОтчеты" id="3">
-			<Type>UsualButton</Type>
-			<Height>2</Height>
-			<HorizontalStretch>true</HorizontalStretch>
-			<CommandName>Form.Command.ПосмотретьОтчеты</CommandName>
-			<ExtendedTooltip name="ПосмотретьОтчетыРасширеннаяПодсказка" id="4"/>
-		</Button>
 		<PictureDecoration name="Декорация1" id="5">
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<Picture>
@@ -32,20 +19,45 @@
 			<ContextMenu name="Декорация1КонтекстноеМеню" id="6"/>
 			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="7"/>
 		</PictureDecoration>
+		<Button name="ПосмотретьСчета" id="1">
+			<Type>UsualButton</Type>
+			<Width>51</Width>
+			<Height>2</Height>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.ПосмотретьСчета</CommandName>
+			<Font ref="style:NormalTextFont" faceName="Arial" height="14" kind="StyleItem"/>
+			<Shape>Oval</Shape>
+			<ExtendedTooltip name="ПосмотретьСчетаРасширеннаяПодсказка" id="2"/>
+		</Button>
+		<Button name="ПосмотретьОтчеты" id="3">
+			<Type>UsualButton</Type>
+			<Width>51</Width>
+			<Height>2</Height>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.ПосмотретьОтчеты</CommandName>
+			<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+			<Shape>Oval</Shape>
+			<ExtendedTooltip name="ПосмотретьОтчетыРасширеннаяПодсказка" id="4"/>
+		</Button>
+		<PictureDecoration name="Декорация2" id="8">
+			<Width>120</Width>
+			<ContextMenu name="Декорация2КонтекстноеМеню" id="9"/>
+			<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="10"/>
+		</PictureDecoration>
 	</ChildItems>
 	<Attributes/>
 	<Commands>
-		<Command name="ПосмтретьСчета" id="1">
+		<Command name="ПосмотретьСчета" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Посмтреть счета</v8:content>
+					<v8:content>Посмотреть счета</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Посмтреть счета</v8:content>
+					<v8:content>Посмотреть счета</v8:content>
 				</v8:item>
 			</ToolTip>
 		</Command>

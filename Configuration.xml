@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>2.4</Version>
+			<Version>2.4.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -212,7 +212,7 @@
 			<Language>Русский</Language>
 			<CommonModule>Запросы</CommonModule>
 			<CommonForm>Переводы</CommonForm>
-			<CommonForm>ВыберитеОпцию</CommonForm>
+			<CommonForm>МоиДеньги</CommonForm>
 			<Catalog>КошелекШамиля</Catalog>
 			<Document>ТранзакцииСумм</Document>
 			<Document>ТранзакцииВыч</Document>
