@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>2.7а</Version>
+			<Version>2.8а</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -222,11 +222,13 @@
 			<Document>ТранзакцииСумм</Document>
 			<Document>ТранзакцииВыч</Document>
 			<Document>БудушиеПланы</Document>
+			<Document>ЛогPOSTЗапросов</Document>
 			<Enum>ТипыДоходов</Enum>
 			<Enum>ТипыПереводов</Enum>
 			<Report>ОтчетПоСчетам</Report>
 			<Report>ОтчетПоПрибылиВсехСчетов</Report>
 			<Report>ОтчетПоРасходамСчетов</Report>
+			<InformationRegister>ЛогGETЗапросов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
