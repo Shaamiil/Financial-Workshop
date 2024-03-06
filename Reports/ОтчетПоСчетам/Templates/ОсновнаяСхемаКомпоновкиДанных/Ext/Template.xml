@@ -16,11 +16,31 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	КошелекШамиля.Наименование КАК Наименование,
-	КошелекШамиля.Сумма КАК Сумма
+	Кошелек.Наименование КАК Наименование,
+	Кошелек.Сумма КАК Сумма
 ИЗ
-	Справочник.КошелекШамиля КАК КошелекШамиля</query>
+	Справочник.Кошелек КАК Кошелек
+ГДЕ
+	Кошелек.ВладелецКошелька = &amp;ВладелецКошелька</query>
 	</dataSet>
+	<parameter>
+		<name>ВладелецКошелька</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Владелец кошелька</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>

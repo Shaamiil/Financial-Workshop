@@ -2,29 +2,29 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<Catalog uuid="1a420385-a40d-4ddb-ba4a-fadeac789ac3">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.КошелекШамиля" category="Object">
+			<xr:GeneratedType name="CatalogObject.Кошелек" category="Object">
 				<xr:TypeId>137c3afd-9c74-41f6-8d56-83e94963d79e</xr:TypeId>
 				<xr:ValueId>800abe0c-2683-4d78-a76d-31020283d0ac</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.КошелекШамиля" category="Ref">
+			<xr:GeneratedType name="CatalogRef.Кошелек" category="Ref">
 				<xr:TypeId>586fd9a3-3af1-499a-9291-e9cceadecf5c</xr:TypeId>
 				<xr:ValueId>d9510371-7e2e-41d3-bf2f-18b835cf7366</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.КошелекШамиля" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.Кошелек" category="Selection">
 				<xr:TypeId>29edc99f-7e22-4e33-bbf4-dcef88404f27</xr:TypeId>
 				<xr:ValueId>9cdfddf3-f06d-4a46-8954-25fd8fdc0cf5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.КошелекШамиля" category="List">
+			<xr:GeneratedType name="CatalogList.Кошелек" category="List">
 				<xr:TypeId>56dc831a-2906-4652-91df-88688a393b5d</xr:TypeId>
 				<xr:ValueId>2d9404c9-8dde-4351-a431-0c17877d9370</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.КошелекШамиля" category="Manager">
+			<xr:GeneratedType name="CatalogManager.Кошелек" category="Manager">
 				<xr:TypeId>49822e6b-38f7-46b9-a6ea-0a0f4913612b</xr:TypeId>
 				<xr:ValueId>481295f8-1af7-4675-bf8f-18ad4cd58487</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>КошелекШамиля</Name>
+			<Name>Кошелек</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -54,15 +54,15 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.КошелекШамиля.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.КошелекШамиля.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Кошелек.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Кошелек.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.КошелекШамиля.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.Кошелек.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm>Catalog.КошелекШамиля.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm>Catalog.Кошелек.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -160,6 +160,50 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dfd349cb-e1ad-40f1-bc7e-2c131e7792b9">
+				<Properties>
+					<Name>ВладелецКошелька</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Владелец кошелька</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
