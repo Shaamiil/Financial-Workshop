@@ -25,6 +25,9 @@
 			<Height>2</Height>
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<CommandName>Form.Command.ПосмотретьСчета</CommandName>
+			<TextColor>#245C72</TextColor>
+			<BackColor>#8BE230</BackColor>
+			<BorderColor>#F6F110</BorderColor>
 			<Font ref="style:NormalTextFont" faceName="Arial" height="14" kind="StyleItem"/>
 			<Shape>Oval</Shape>
 			<ExtendedTooltip name="ПосмотретьСчетаРасширеннаяПодсказка" id="2"/>
@@ -36,6 +39,9 @@
 			<Height>2</Height>
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<CommandName>Form.Command.ПосмотретьОтчеты</CommandName>
+			<TextColor>#245C72</TextColor>
+			<BackColor>#8BE230</BackColor>
+			<BorderColor>#F6F110</BorderColor>
 			<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
 			<Shape>Oval</Shape>
 			<ExtendedTooltip name="ПосмотретьОтчетыРасширеннаяПодсказка" id="4"/>

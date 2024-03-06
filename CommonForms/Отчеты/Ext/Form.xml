@@ -16,7 +16,9 @@
 			<Height>2</Height>
 			<HorizontalStretch>true</HorizontalStretch>
 			<CommandName>Form.Command.ОтчетПоСчетам</CommandName>
-			<BackColor>#09E968</BackColor>
+			<TextColor>#245C72</TextColor>
+			<BackColor>#8BE230</BackColor>
+			<BorderColor>#F6F110</BorderColor>
 			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<ExtendedTooltip name="ОтчетПоСчетамРасширеннаяПодсказка" id="2"/>
 		</Button>
@@ -25,7 +27,9 @@
 			<Height>2</Height>
 			<HorizontalStretch>true</HorizontalStretch>
 			<CommandName>Form.Command.ОтчетПоДоходам</CommandName>
-			<BackColor>#09E968</BackColor>
+			<TextColor>#245C72</TextColor>
+			<BackColor>#8BE230</BackColor>
+			<BorderColor>#F6F110</BorderColor>
 			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<ExtendedTooltip name="ОтчетПоДоходамРасширеннаяПодсказка" id="7"/>
 		</Button>
@@ -34,7 +38,9 @@
 			<Height>2</Height>
 			<HorizontalStretch>true</HorizontalStretch>
 			<CommandName>Form.Command.ОтчетПоРасходам</CommandName>
-			<BackColor>#09E968</BackColor>
+			<TextColor>#245C72</TextColor>
+			<BackColor>#8BE230</BackColor>
+			<BorderColor>#F6F110</BorderColor>
 			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<ExtendedTooltip name="ОтчетПоРасходамРасширеннаяПодсказка" id="9"/>
 		</Button>

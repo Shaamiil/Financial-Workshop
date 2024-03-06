@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>2.8а</Version>
+			<Version>2.9аб</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -223,8 +223,9 @@
 			<Document>ТранзакцииВыч</Document>
 			<Document>БудушиеПланы</Document>
 			<Document>ЛогPOSTЗапросов</Document>
+			<Document>ПланированиеБюджета</Document>
 			<Enum>ТипыДоходов</Enum>
-			<Enum>ТипыПереводов</Enum>
+			<Enum>ТипыРасходов</Enum>
 			<Report>ОтчетПоСчетам</Report>
 			<Report>ОтчетПоПрибылиВсехСчетов</Report>
 			<Report>ОтчетПоРасходамСчетов</Report>

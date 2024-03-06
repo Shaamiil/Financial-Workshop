@@ -34,6 +34,9 @@
 			<Height>2</Height>
 			<HorizontalStretch>true</HorizontalStretch>
 			<CommandName>Form.Command.Перевод</CommandName>
+			<TextColor>#245C72</TextColor>
+			<BackColor>#8BE230</BackColor>
+			<BorderColor>#F6F110</BorderColor>
 			<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 			<Picture>
 				<xr:Ref>StdPicture.AppearanceUpInclineArrowYellow</xr:Ref>
@@ -47,6 +50,9 @@
 			<Height>2</Height>
 			<HorizontalStretch>true</HorizontalStretch>
 			<CommandName>Form.Command.Пополнить</CommandName>
+			<TextColor>#245C72</TextColor>
+			<BackColor>#8BE230</BackColor>
+			<BorderColor>#F6F110</BorderColor>
 			<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 			<Picture>
 				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
@@ -54,18 +60,37 @@
 			</Picture>
 			<ExtendedTooltip name="ПополнитьРасширеннаяПодсказка" id="8"/>
 		</Button>
-		<Button name="ПланированиеБюджета" id="9">
+		<Button name="Планирование" id="9">
 			<Type>UsualButton</Type>
 			<Representation>PictureAndText</Representation>
 			<Height>2</Height>
 			<HorizontalStretch>true</HorizontalStretch>
-			<CommandName>Form.Command.ПланированиеБюджета</CommandName>
+			<CommandName>Form.Command.Планирование</CommandName>
+			<TextColor>#245C72</TextColor>
+			<BackColor>#8BE230</BackColor>
+			<BorderColor>#F6F110</BorderColor>
 			<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 			<Picture>
 				<xr:Ref>StdPicture.WriteAndClose</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<ExtendedTooltip name="ПланированиеБюджетаРасширеннаяПодсказка" id="10"/>
+			<ExtendedTooltip name="ПланированиеРасширеннаяПодсказка" id="10"/>
+		</Button>
+		<Button name="ПланированиеБюджета" id="14">
+			<Type>UsualButton</Type>
+			<Representation>PictureAndText</Representation>
+			<Height>2</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<CommandName>Form.Command.ПланированиеБюджета</CommandName>
+			<TextColor>#245C72</TextColor>
+			<BackColor>#8BE230</BackColor>
+			<BorderColor>#F6F110</BorderColor>
+			<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+			<Picture>
+				<xr:Ref>StdPicture.FunctionMenuCommand</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<ExtendedTooltip name="ПланированиеБюджетаРасширеннаяПодсказка" id="15"/>
 		</Button>
 	</ChildItems>
 	<Attributes/>
@@ -129,7 +154,22 @@
 			</ToolTip>
 			<Action>Пополнить</Action>
 		</Command>
-		<Command name="ПланированиеБюджета" id="5">
+		<Command name="Планирование" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Планирование</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Планирование</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПланированиеБюджета</Action>
+		</Command>
+		<Command name="ПланированиеБюджета" id="6">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -142,7 +182,7 @@
 					<v8:content>Планирование бюджета</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПланированиеБюджета</Action>
+			<Action>ПланированиеБюджетаа</Action>
 		</Command>
 	</Commands>
 </Form>
