@@ -68,28 +68,27 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="Ссылка" id="16">
-					<DataPath>Список.Ref</DataPath>
+				<LabelField name="Дата" id="16">
+					<DataPath>Список.Date</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+				<LabelField name="Номер" id="19">
+					<DataPath>Список.Number</DataPath>
 					<Visible>false</Visible>
-					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="СсылкаКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="18"/>
+					<ContextMenu name="НомерКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="21"/>
 				</LabelField>
-				<LabelField name="Тип" id="19">
-					<DataPath>Список.Тип</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="ТипКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="21"/>
+				<LabelField name="Счет" id="22">
+					<DataPath>Список.Счет</DataPath>
+					<ContextMenu name="СчетКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="СчетРасширеннаяПодсказка" id="24"/>
 				</LabelField>
-				<LabelField name="ПланНаМесяц" id="22">
-					<DataPath>Список.ПланНаМесяц</DataPath>
-					<ContextMenu name="ПланНаМесяцКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="ПланНаМесяцРасширеннаяПодсказка" id="24"/>
-				</LabelField>
-				<LabelField name="Описание" id="25">
-					<DataPath>Список.Описание</DataPath>
-					<ContextMenu name="ОписаниеКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="27"/>
+				<LabelField name="ПланНаМесяцСчетов" id="25">
+					<DataPath>Список.ПланНаМесяцСчетов</DataPath>
+					<ContextMenu name="ПланНаМесяцСчетовКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ПланНаМесяцСчетовРасширеннаяПодсказка" id="27"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
@@ -103,7 +102,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>Document.ПланированиеБюджета</MainTable>
+				<MainTable>Document.ПланБюджетаСчетов</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>

@@ -3,10 +3,7 @@
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
-	<Events>
-		<Event name="OnOpen">ПриОткрытии</Event>
-	</Events>
+	<AutoCommandBar name="" id="-1"/>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -20,20 +17,21 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<InputField name="Тип" id="7">
-			<DataPath>Объект.Тип</DataPath>
+		<InputField name="Счет" id="7">
+			<DataPath>Объект.Счет</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ТипКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="9"/>
+			<ContextMenu name="СчетКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="СчетРасширеннаяПодсказка" id="9"/>
 		</InputField>
-		<InputField name="Сумма" id="10">
-			<DataPath>Объект.ПланНаМесяц</DataPath>
+		<InputField name="ПланНаМесяцСчетов" id="10">
+			<DataPath>Объект.ПланНаМесяцСчетов</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="СуммаКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="12"/>
+			<ContextMenu name="ПланНаМесяцСчетовКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ПланНаМесяцСчетовРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="Описание" id="13">
 			<DataPath>Объект.Описание</DataPath>
+			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ОписаниеКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="15"/>
 		</InputField>
@@ -41,7 +39,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:DocumentObject.ПланированиеБюджета</v8:Type>
+				<v8:Type>cfg:DocumentObject.ПланБюджетаСчетов</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>

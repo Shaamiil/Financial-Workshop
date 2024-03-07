@@ -92,6 +92,11 @@
 			</Picture>
 			<ExtendedTooltip name="ПланированиеБюджетаРасширеннаяПодсказка" id="15"/>
 		</Button>
+		<Button name="Команда1" id="16">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Команда1</CommandName>
+			<ExtendedTooltip name="Команда1РасширеннаяПодсказка" id="17"/>
+		</Button>
 	</ChildItems>
 	<Attributes/>
 	<Commands>
@@ -183,6 +188,9 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПланированиеБюджетаа</Action>
+		</Command>
+		<Command name="Команда1" id="7">
+			<Action>Команда1</Action>
 		</Command>
 	</Commands>
 </Form>

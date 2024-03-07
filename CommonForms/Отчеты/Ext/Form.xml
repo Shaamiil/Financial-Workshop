@@ -44,6 +44,17 @@
 			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<ExtendedTooltip name="ОтчетПоРасходамРасширеннаяПодсказка" id="9"/>
 		</Button>
+		<Button name="ОтчетПоПлануБюджета" id="10">
+			<Type>UsualButton</Type>
+			<Height>2</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<CommandName>Form.Command.ОтчетПоПлануБюджета</CommandName>
+			<TextColor>#245C72</TextColor>
+			<BackColor>#8BE230</BackColor>
+			<BorderColor>#F6F110</BorderColor>
+			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<ExtendedTooltip name="ОтчетПоПлануБюджетаРасширеннаяПодсказка" id="11"/>
+		</Button>
 	</ChildItems>
 	<Attributes/>
 	<Commands>
@@ -91,6 +102,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОтчетПоРасходам</Action>
+		</Command>
+		<Command name="ОтчетПоПлануБюджета" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет по плану бюджета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет по плану бюджета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтчетПоПлануБюджета</Action>
 		</Command>
 	</Commands>
 </Form>
