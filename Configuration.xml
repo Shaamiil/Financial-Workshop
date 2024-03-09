@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>2.10аб</Version>
+			<Version>2.11аб</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -210,6 +210,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonPicture>ОбщаяКартинка1</CommonPicture>
 			<SessionParameter>ИмяТекущегоПользователя</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>Пользователь</Role>
@@ -218,6 +219,7 @@
 			<CommonForm>Переводы</CommonForm>
 			<CommonForm>МоиДеньги</CommonForm>
 			<CommonForm>Отчеты</CommonForm>
+			<CommonForm>ДопИнфа</CommonForm>
 			<Catalog>Кошелек</Catalog>
 			<Document>ТранзакцииСумм</Document>
 			<Document>ТранзакцииВыч</Document>
