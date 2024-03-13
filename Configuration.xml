@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>2.11аб</Version>
+			<Version>2.12а</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -216,6 +216,7 @@
 			<Role>Пользователь</Role>
 			<CommonModule>Запросы</CommonModule>
 			<HTTPService>account</HTTPService>
+			<HTTPService>transactions</HTTPService>
 			<CommonForm>Переводы</CommonForm>
 			<CommonForm>МоиДеньги</CommonForm>
 			<CommonForm>Отчеты</CommonForm>

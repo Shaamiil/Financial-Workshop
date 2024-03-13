@@ -72,7 +72,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<PictureDecoration name="Декорация2" id="22">
-			<Width>60</Width>
+			<Width>80</Width>
 			<Height>1</Height>
 			<ContextMenu name="Декорация2КонтекстноеМеню" id="23"/>
 			<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="24"/>

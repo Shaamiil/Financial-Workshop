@@ -47,7 +47,7 @@
 			<ExtendedTooltip name="ПосмотретьОтчетыРасширеннаяПодсказка" id="4"/>
 		</Button>
 		<PictureDecoration name="Декорация2" id="8">
-			<Width>60</Width>
+			<Width>80</Width>
 			<Height>1</Height>
 			<ContextMenu name="Декорация2КонтекстноеМеню" id="9"/>
 			<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="10"/>
