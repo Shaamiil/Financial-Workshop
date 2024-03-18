@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>2.12а</Version>
+			<Version>2.13а</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -216,12 +216,15 @@
 			<Role>Пользователь</Role>
 			<CommonModule>Запросы</CommonModule>
 			<HTTPService>account</HTTPService>
-			<HTTPService>transactions</HTTPService>
+			<HTTPService>getTransactions</HTTPService>
+			<HTTPService>postTransactions</HTTPService>
 			<CommonForm>Переводы</CommonForm>
 			<CommonForm>МоиДеньги</CommonForm>
 			<CommonForm>Отчеты</CommonForm>
 			<CommonForm>ДопИнфа</CommonForm>
 			<Catalog>Кошелек</Catalog>
+			<Catalog>ТипыДоходов</Catalog>
+			<Catalog>ТипыРасходов</Catalog>
 			<Document>ТранзакцииСумм</Document>
 			<Document>ТранзакцииВыч</Document>
 			<Document>БудушиеПланы</Document>

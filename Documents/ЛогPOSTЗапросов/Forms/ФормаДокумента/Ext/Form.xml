@@ -38,7 +38,7 @@
 		<InputField name="Ошибка" id="16">
 			<DataPath>Объект.Ошибка</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<Height>4</Height>
+			<Height>2</Height>
 			<ContextMenu name="ОшибкаКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="ОшибкаРасширеннаяПодсказка" id="18"/>
 		</InputField>

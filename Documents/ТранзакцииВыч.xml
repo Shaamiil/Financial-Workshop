@@ -89,7 +89,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:TypeSet>cfg:CatalogRef</v8:TypeSet>
+						<v8:Type>cfg:CatalogRef.Кошелек</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -172,7 +172,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.ТипыРасходов</v8:Type>
+						<v8:Type>cfg:CatalogRef.ТипыРасходов</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
