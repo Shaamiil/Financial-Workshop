@@ -21,14 +21,14 @@
 ИЗ
 	Справочник.Кошелек КАК Кошелек
 ГДЕ
-	Кошелек.ВладелецКошелька = &amp;ВладелецКошелька</query>
+	Кошелек.ВладелецКошелька = &amp;ИмяТекущегоПользователя</query>
 	</dataSet>
 	<parameter>
-		<name>ВладелецКошелька</name>
+		<name>ИмяТекущегоПользователя</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Владелец кошелька</v8:content>
+				<v8:content>Имя текущего пользователя</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -53,6 +53,12 @@
 					<dcsset:field>Сумма</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ИмяТекущегоПользователя</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string"/>
+				</dcscor:item>
+			</dcsset:dataParameters>
 			<dcsset:order>
 				<dcsset:item xsi:type="dcsset:OrderItemField">
 					<dcsset:field>Сумма</dcsset:field>

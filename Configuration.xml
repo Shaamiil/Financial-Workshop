@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>2.13а</Version>
+			<Version>2.14</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -237,7 +237,6 @@
 			<Report>ОтчетПоПрибылиВсехСчетов</Report>
 			<Report>ОтчетПоРасходамСчетов</Report>
 			<Report>ОтчетПоПланированиюБюджета</Report>
-			<Report>Отчет1</Report>
 			<InformationRegister>ЛогGETЗапросов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
