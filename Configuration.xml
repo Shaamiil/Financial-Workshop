@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>2.14</Version>
+			<Version>2.15</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -202,8 +202,8 @@
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
-			<ModalityUseMode>DontUse</ModalityUseMode>
-			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
+			<ModalityUseMode>Use</ModalityUseMode>
+			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<CompatibilityMode>Version8_3_21</CompatibilityMode>
 			<DefaultConstantsForm/>
@@ -237,6 +237,7 @@
 			<Report>ОтчетПоПрибылиВсехСчетов</Report>
 			<Report>ОтчетПоРасходамСчетов</Report>
 			<Report>ОтчетПоПланированиюБюджета</Report>
+			<DataProcessor>ОбработкаПапок</DataProcessor>
 			<InformationRegister>ЛогGETЗапросов</InformationRegister>
 		</ChildObjects>
 	</Configuration>

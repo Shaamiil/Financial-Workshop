@@ -6,8 +6,8 @@
 			<Metadata name="Catalog.Кошелек.Attribute.ВладелецКошелька" id="dfd349cb-e1ad-40f1-bc7e-2c131e7792b9"/>
 			<Metadata name="Catalog.Кошелек.Attribute.Сумма" id="e3f7fffc-bc1e-4d3b-921c-31426a214782"/>
 		</Metadata>
-		<Metadata name="Catalog.Кошелек.Form.ФормаСписка" id="f9efaa5d-0f78-459b-996a-5ae9bea7c390" configVersion="2cf04ef4b3cd0f4bb71edcf19e4b539400000000"/>
-		<Metadata name="Catalog.Кошелек.Form.ФормаСписка.Form" id="f9efaa5d-0f78-459b-996a-5ae9bea7c390.0" configVersion="24da0665233bae43800a8388dea38f0e00000000"/>
+		<Metadata name="Catalog.Кошелек.Form.ФормаСписка" id="f9efaa5d-0f78-459b-996a-5ae9bea7c390" configVersion="49933bcb874dd245bf99155517abb9e200000000"/>
+		<Metadata name="Catalog.Кошелек.Form.ФормаСписка.Form" id="f9efaa5d-0f78-459b-996a-5ae9bea7c390.0" configVersion="daffad82b9a99b489bf5bbf0cb514d9d00000000"/>
 		<Metadata name="Catalog.Кошелек.Form.ФормаЭлемента" id="6cb65c7e-ffb4-4adf-b761-dfee47f9e8b4" configVersion="cdced1fd9441214d8d3efea6784004a400000000"/>
 		<Metadata name="Catalog.Кошелек.Form.ФормаЭлемента.Form" id="6cb65c7e-ffb4-4adf-b761-dfee47f9e8b4.0" configVersion="f89d454a0e7ab24691e86d39fc733fb700000000"/>
 		<Metadata name="Catalog.ТипыДоходов" id="fc3d3b43-ca32-48d8-9522-673d73016871" configVersion="3f5a285d9fb2b144a3ea5c2f0343daa500000000"/>
@@ -23,9 +23,12 @@
 		<Metadata name="CommonModule.Запросы" id="a3ea8d78-7fac-4bf6-90b1-378a3ced1535" configVersion="254e5a5b0458cd468bd032a06c4cb77400000000"/>
 		<Metadata name="CommonModule.Запросы.Module" id="a3ea8d78-7fac-4bf6-90b1-378a3ced1535.0" configVersion="05a70c5b3bfb354b94c7d9e37e72811800000000"/>
 		<Metadata name="CommonPicture.ОбщаяКартинка1" id="c9dfb38b-b6f7-4a5a-b127-5e433c81b450" configVersion="cbda8884563fa3488d7b92c3bfeb51c100000000"/>
-		<Metadata name="Configuration.Конфигурация" id="7a55d856-b844-40b2-b6d3-944a423a4a14" configVersion="50af38b883f6ac4cba38c6c2d18cc34200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="7a55d856-b844-40b2-b6d3-944a423a4a14" configVersion="c2d99a667c0c4c438a3839ebd291c42800000000"/>
 		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="e8880818-8312-40cb-98cf-5a9a930f9a57.8" configVersion="fd7224b81a0a9148ad639de4b265c76800000000"/>
 		<Metadata name="Configuration.Конфигурация.SessionModule" id="e8880818-8312-40cb-98cf-5a9a930f9a57.7" configVersion="3356d43e8d250a4f93aa4ffeddee647800000000"/>
+		<Metadata name="DataProcessor.ОбработкаПапок" id="8c0c78da-1026-4533-90fd-0b7603dff4ff" configVersion="2d1b5db00b01824f8253144f830a2b2600000000"/>
+		<Metadata name="DataProcessor.ОбработкаПапок.Form.Форма" id="43784c48-e8ad-426d-b0c7-b77ff1ab9e38" configVersion="76988bdc26cc7849b89544b115fd8e3500000000"/>
+		<Metadata name="DataProcessor.ОбработкаПапок.Form.Форма.Form" id="43784c48-e8ad-426d-b0c7-b77ff1ab9e38.0" configVersion="c56d7528804af54ebcaa9b590d67830a00000000"/>
 		<Metadata name="Document.БудушиеПланы" id="d48230ba-d54d-4e8e-a7ea-e9de99e7c016" configVersion="139b5cb02ff98843a3b53833531136cd00000000">
 			<Metadata name="Document.БудушиеПланы.Attribute.ВладелецПлана" id="56e50cb4-354e-4053-8dcd-ac0ac9872c5c"/>
 			<Metadata name="Document.БудушиеПланы.Attribute.Бюджет" id="76385bdc-845f-4da0-af6b-71997fee5354"/>
@@ -108,28 +111,28 @@
 			<Metadata name="Enum.ТипыРасходов.EnumValue.Одежда" id="e8092c50-eabf-42a0-a30c-3136147222f8"/>
 			<Metadata name="Enum.ТипыРасходов.EnumValue.Другое" id="f7dcef79-5884-4f1c-81ff-8586f92bdce8"/>
 		</Metadata>
-		<Metadata name="HTTPService.account" id="c8bb1137-4e8e-43a8-8c71-81038e7fccbf" configVersion="ef4be71018421d4e936d2f04e9e0f72000000000">
+		<Metadata name="HTTPService.account" id="c8bb1137-4e8e-43a8-8c71-81038e7fccbf" configVersion="983cb0087b3cc8469682f01a854faa5500000000">
 			<Metadata name="HTTPService.account.URLTemplate.oneAccount.Method.POST" id="14a0e033-2c5c-4b80-bb27-732240091c36"/>
 			<Metadata name="HTTPService.account.URLTemplate.oneAccount.Method.GET" id="6191adae-6a23-44e2-a076-270d1c4ca756"/>
 			<Metadata name="HTTPService.account.URLTemplate.oneAccount" id="a6aa1918-1d35-41d8-83a9-75bab45ddc8d"/>
-			<Metadata name="HTTPService.account.URLTemplate.allAccount.Method.GET" id="b7fe1346-2b5a-426e-8ea1-8bad9a96f2e9"/>
+			<Metadata name="HTTPService.account.URLTemplate.allAccount.Method.POST" id="b7fe1346-2b5a-426e-8ea1-8bad9a96f2e9"/>
 			<Metadata name="HTTPService.account.URLTemplate.allAccount" id="fd0270c8-bc51-471b-82f8-dab0184da956"/>
 		</Metadata>
-		<Metadata name="HTTPService.account.Module" id="c8bb1137-4e8e-43a8-8c71-81038e7fccbf.0" configVersion="3e8011c114bb6145a32ebeb0e737534700000000"/>
-		<Metadata name="HTTPService.getTransactions" id="b490b455-4390-427b-8f24-817ac1eb3fd9" configVersion="ef594e7b7004664888b394b859ce35e000000000">
+		<Metadata name="HTTPService.account.Module" id="c8bb1137-4e8e-43a8-8c71-81038e7fccbf.0" configVersion="e8e65881a5406a42b2903c40cbcc348900000000"/>
+		<Metadata name="HTTPService.getTransactions" id="b490b455-4390-427b-8f24-817ac1eb3fd9" configVersion="d6e7fa0e29677b47b12015f5afeff28a00000000">
 			<Metadata name="HTTPService.getTransactions.URLTemplate.allTransactionsConsumption" id="42fc59ee-96cf-4b51-91b6-564abdf4b27f"/>
 			<Metadata name="HTTPService.getTransactions.URLTemplate.allTransactionsIncome" id="56e17df5-ddf7-4df5-9c00-fa35134acae9"/>
 			<Metadata name="HTTPService.getTransactions.URLTemplate.allTransactionsIncome.Method.GET" id="a7dd3fd9-6a6b-44cb-8321-bbbca42aa304"/>
 			<Metadata name="HTTPService.getTransactions.URLTemplate.allTransactionsConsumption.Method.GET" id="c0f9fef3-d7d1-41c7-b334-f3f94ed1ae24"/>
 		</Metadata>
-		<Metadata name="HTTPService.getTransactions.Module" id="b490b455-4390-427b-8f24-817ac1eb3fd9.0" configVersion="3e9397f8e4dfba429e3c42910b656a0800000000"/>
-		<Metadata name="HTTPService.postTransactions" id="75305a6f-d7af-42ef-bb9a-5bc9a690a276" configVersion="66c50df9b53f3549b677e27bce8ddc2100000000">
+		<Metadata name="HTTPService.getTransactions.Module" id="b490b455-4390-427b-8f24-817ac1eb3fd9.0" configVersion="d8b6aa9fac65274bb25e510d320e8bdf00000000"/>
+		<Metadata name="HTTPService.postTransactions" id="75305a6f-d7af-42ef-bb9a-5bc9a690a276" configVersion="c9b08ac01c72d04399021a8deec639a900000000">
 			<Metadata name="HTTPService.postTransactions.URLTemplate.transactionIncome.Method.POST" id="17fbc710-a71c-476c-94db-b57759920584"/>
 			<Metadata name="HTTPService.postTransactions.URLTemplate.transactionExpenses.Method.POST" id="2a42dacf-e7dc-4b50-9419-33b59db3b9ec"/>
 			<Metadata name="HTTPService.postTransactions.URLTemplate.transactionIncome" id="84c87616-7f99-4e96-b354-1c512a79e468"/>
 			<Metadata name="HTTPService.postTransactions.URLTemplate.transactionExpenses" id="ceaaf517-64de-4ce8-847d-bae6a69e92e9"/>
 		</Metadata>
-		<Metadata name="HTTPService.postTransactions.Module" id="75305a6f-d7af-42ef-bb9a-5bc9a690a276.0" configVersion="7422db68437b0040b0a946376d9e5ce200000000"/>
+		<Metadata name="HTTPService.postTransactions.Module" id="75305a6f-d7af-42ef-bb9a-5bc9a690a276.0" configVersion="fa5e8a1950f1c04caae85aa33c8577e000000000"/>
 		<Metadata name="InformationRegister.ЛогGETЗапросов" id="279291a8-731e-4d64-9db5-47dbf6e0f9ad" configVersion="05658eadc156754282be70b9e887959900000000">
 			<Metadata name="InformationRegister.ЛогGETЗапросов.Attribute.Запрос" id="363dc6ce-5d4d-40f8-9374-6921aee5b584"/>
 			<Metadata name="InformationRegister.ЛогGETЗапросов.Dimension.Дата" id="49f33dd6-9aa8-4a58-a288-9bddb446279c"/>
