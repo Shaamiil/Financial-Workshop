@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>2.15</Version>
+			<Version>2.16</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -218,6 +218,7 @@
 			<HTTPService>account</HTTPService>
 			<HTTPService>getTransactions</HTTPService>
 			<HTTPService>postTransactions</HTTPService>
+			<HTTPService>type</HTTPService>
 			<CommonForm>Переводы</CommonForm>
 			<CommonForm>МоиДеньги</CommonForm>
 			<CommonForm>Отчеты</CommonForm>
