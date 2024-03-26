@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>2.16</Version>
+			<Version>2.17</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -226,8 +226,8 @@
 			<Catalog>Кошелек</Catalog>
 			<Catalog>ТипыДоходов</Catalog>
 			<Catalog>ТипыРасходов</Catalog>
-			<Document>ТранзакцииСумм</Document>
-			<Document>ТранзакцииВыч</Document>
+			<Document>ТранзакцииДоходов</Document>
+			<Document>ТранзакцииРасходов</Document>
 			<Document>БудушиеПланы</Document>
 			<Document>ЛогPOSTЗапросов</Document>
 			<Document>ПланированиеБюджета</Document>

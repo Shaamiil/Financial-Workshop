@@ -53,7 +53,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:DocumentObject.ТранзакцииСумм</v8:Type>
+				<v8:Type>cfg:DocumentObject.ТранзакцииДоходов</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>

@@ -67,7 +67,7 @@
 								</v8:item>
 							</Synonym>
 							<Comment/>
-							<HTTPMethod>GET</HTTPMethod>
+							<HTTPMethod>POST</HTTPMethod>
 							<Handler>expensesGET</Handler>
 						</Properties>
 					</Method>
@@ -98,6 +98,35 @@
 							<Comment/>
 							<HTTPMethod>POST</HTTPMethod>
 							<Handler>incomePOSTPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="8282396c-d13e-401c-955d-5136fd45fd40">
+				<Properties>
+					<Name>expensesPOST</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Expenses POST</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/expensesPOST</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="b5497f17-6cb6-4f2b-ad5d-7867e9ea3aa0">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>expensesPOSTPOST</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>

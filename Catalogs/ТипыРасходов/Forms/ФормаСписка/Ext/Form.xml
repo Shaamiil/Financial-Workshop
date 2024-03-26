@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="" id="-1"/>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
@@ -68,42 +68,16 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="Ссылка" id="16">
-					<DataPath>Список.Ref</DataPath>
-					<Visible>false</Visible>
-					<ContextMenu name="СсылкаКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="18"/>
-				</LabelField>
-				<LabelField name="Дата" id="19">
-					<DataPath>Список.Date</DataPath>
+				<LabelField name="Наименование" id="16">
+					<DataPath>Список.Description</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="ДатаКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="21"/>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
-				<LabelField name="Номер" id="22">
-					<DataPath>Список.Number</DataPath>
-					<ContextMenu name="НомерКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="24"/>
-				</LabelField>
-				<LabelField name="Счет" id="25">
-					<DataPath>Список.Счет</DataPath>
-					<ContextMenu name="СчетКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="СчетРасширеннаяПодсказка" id="27"/>
-				</LabelField>
-				<LabelField name="Сумма" id="28">
-					<DataPath>Список.Сумма</DataPath>
-					<ContextMenu name="СуммаКонтекстноеМеню" id="29"/>
-					<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="30"/>
-				</LabelField>
-				<LabelField name="Тип" id="31">
-					<DataPath>Список.Тип</DataPath>
-					<ContextMenu name="ТипКонтекстноеМеню" id="32"/>
-					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="33"/>
-				</LabelField>
-				<LabelField name="Описание" id="34">
-					<DataPath>Список.Описание</DataPath>
-					<ContextMenu name="ОписаниеКонтекстноеМеню" id="35"/>
-					<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="36"/>
+				<LabelField name="Код" id="19">
+					<DataPath>Список.Code</DataPath>
+					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
@@ -117,7 +91,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>Document.ТранзакцииВыч</MainTable>
+				<MainTable>Catalog.ТипыРасходов</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>

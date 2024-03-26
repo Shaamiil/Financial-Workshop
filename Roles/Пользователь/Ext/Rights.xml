@@ -279,6 +279,23 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ТипыРасходов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>ТипыРасходов ГДЕ ТипыРасходов.ВладелецТипаРасходов = &amp;ИмяТекущегоПользователя</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>ТипыРасходов ГДЕ ТипыРасходов.ВладелецТипаРасходов = &amp;ИмяТекущегоПользователя</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+	<object>
 		<name>HTTPService.account.URLTemplate.allAccount.Method.POST</name>
 		<right>
 			<name>Use</name>
@@ -296,12 +313,12 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ТранзакцииВыч</name>
+		<name>Document.ТранзакцииРасходов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>ТранзакцииВыч ГДЕ ТранзакцииВыч.ВладелецТранзакцииВыч = &amp;ИмяТекущегоПользователя</condition>
+				<condition>ТранзакцииРасходов ГДЕ ТранзакцииРасходов.ВладелецТранзакцииВыч = &amp;ИмяТекущегоПользователя</condition>
 			</restrictionByCondition>
 		</right>
 	</object>
@@ -313,12 +330,12 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ТранзакцииСумм</name>
+		<name>Document.ТранзакцииДоходов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>ТранзакцииСумм ГДЕ ТранзакцииСумм.ВладелецТранзакцииСумм = &amp;ИмяТекущегоПользователя</condition>
+				<condition>ТранзакцииДоходов ГДЕ ТранзакцииДоходов.ВладелецТранзакцииСумм = &amp;ИмяТекущегоПользователя</condition>
 			</restrictionByCondition>
 		</right>
 	</object>
